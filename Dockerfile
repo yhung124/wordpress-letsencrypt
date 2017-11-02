@@ -1,4 +1,4 @@
-FROM wordpress:4.7.3
+FROM wordpress:4.8.3
 
 RUN apt-get update && apt-get install -y wget vim net-tools && apt-get clean && rm -rf /var/lib/apt/lists/*
 
